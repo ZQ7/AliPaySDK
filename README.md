@@ -1,6 +1,6 @@
 # AliPaySDK
 
-[ ![Download](https://api.bintray.com/packages/zhangqi/maven/EasyPay/images/download.svg?version=1.0.7) ](https://bintray.com/zhangqi/maven/EasyPay)
+[ [![](https://jitpack.io/v/ZQ7/AliPaySDK.svg)](https://jitpack.io/#ZQ7/AliPaySDK) ](https://jitpack.io/#ZQ7/AliPaySDK)
 
 > Android支付宝SDK
 # AliPaySDK
