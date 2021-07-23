@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.kezong.fat-aar'
 
 android {
     compileSdkVersion Integer.parseInt(project.ANDROID_COMPILE_SDK_VERSION)
@@ -26,7 +27,10 @@ android {
 
 }
 
+
 dependencies {
-    api fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    //embed project(path: ':', configuration: 'default')
+    embed (name:'alipaysdk-15.8.03.210428205839', ext:'aar')
     //api(name: 'alipaysdk-15.8.03.210428205839', ext: 'aar')
 }
